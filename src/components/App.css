@@ -1,0 +1,22 @@
+.App {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 10%;
+}
+h1 {
+  font-size: 26px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #222;
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .App {
+   margin-left: 25vw;
+   margin-top: 0;
+  }
+  h1 {
+    font-size: 36px;
+  }
+} 

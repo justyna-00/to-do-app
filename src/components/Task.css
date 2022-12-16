@@ -1,0 +1,46 @@
+.activeTask p, .doneTask p {
+  font-size: 14px;
+  margin: 10px;
+}
+
+
+
+.activeTask button, .doneTask button {
+  margin: 0 5px;
+  padding: 3px 7px;
+  font-size: 12px;
+  background-color: transparent;
+  border: 2px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.activeTask button {
+  margin-top: 7px;
+}
+
+.activeTask button:hover,
+.doneTask button:hover {
+  background-color: #333;
+  color: #ECECEC
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+.activeTask p,
+.doneTask p {
+  font-size: 24px;
+  margin: 25px;
+}
+
+.activeTask button,
+.doneTask button {
+font-size: 16px;
+margin: 0 3px ;
+padding: 4px 10px;
+}
+
+.activeTask button {
+  margin-top: 10px;
+}
+}
